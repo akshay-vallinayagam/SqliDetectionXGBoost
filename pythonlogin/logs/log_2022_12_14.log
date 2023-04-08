@@ -1,0 +1,6 @@
+2022-12-14 13:46:50,535 INFO New user jasneet registered successfully
+2022-12-14 13:46:59,675 INFO jasneet logged in successfully
+2022-12-14 13:47:19,166 INFO jasneet Logged out successfully
+2022-12-14 13:47:47,603 ERROR SQL Injection detected for user jasneet Query: SELECT * FROM accounts WHERE username = jasneet AND password = test123$ " or pg_sleep  (  __TIME__  )  --
+2022-12-14 13:50:11,117 ERROR SQL Injection detected for user akshay Query: SELECT * FROM accounts WHERE username = akshay AND password = 2022-12-12 00:20:06,973 ERROR SQL Injection detected for user akshay Query: SELECT * FROM accounts WHERE username = akshay AND password = ')(SELECT (CASE WHEN (4002=8977) THEN CHAR(112)+CHAR(114)+CHAR(111)+CHAR(106)+CHAR(101)+CHAR(99)+CHAR(116)+CHAR(49) ELSE (SELECT 8977 UNION SELECT 1562) END))
+2022-12-14 13:51:18,256 ERROR SQL Injection detected for user akshay Query: SELECT * FROM accounts WHERE username = akshay AND password = project1') ORDER BY 1-- uTpi

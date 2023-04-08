@@ -1,0 +1,13 @@
+2022-11-30 13:58:11,878 INFO akshay logged in successfully
+2022-11-30 13:58:23,080 INFO Login failed - Incorrect username/password 
+2022-11-30 13:59:08,846 ERROR SQL Injection detected for user test Query: SELECT * FROM accounts WHERE username = test AND password = test" or pg_sleep  (  __TIME__  )  --
+2022-11-30 13:59:18,512 INFO test logged in successfully
+2022-11-30 14:02:14,131 INFO test logged in successfully
+2022-11-30 14:04:47,669 INFO test logged in successfully
+2022-11-30 14:05:32,239 INFO test logged in successfully
+2022-11-30 14:23:11,737 ERROR SQL Injection detected for user akshay Query: SELECT * FROM accounts WHERE username = akshay AND password = test " or pg_sleep  (  __TIME__  )  --
+2022-11-30 14:41:51,235 INFO test logged in successfully
+2022-11-30 14:42:10,143 INFO test logged in successfully
+2022-11-30 14:42:19,705 INFO test logged in successfully
+2022-11-30 14:42:31,282 INFO test logged in successfully
+2022-11-30 14:43:15,830 ERROR SQL Injection detected for user test Query: SELECT * FROM accounts WHERE username = test AND password = test " or pg_sleep  (  __TIME__  )  --
